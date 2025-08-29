@@ -1,10 +1,9 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
-You are working for a property management company renting rooms and properties for short periods of 
-time on various rental platforms. You need to estimate the typical price for a given property based 
-on the price of similar properties. Your company receives new data in bulk every week. The model needs 
-to be retrained with the same cadence, necessitating an end-to-end pipeline that can be reused.
+This project implements a reusable end-to-end machine learning pipeline to estimate typical short-term rental prices in NYC based on similar properties. Because new data is received in bulk every week, the model requires regular retraining, necessitating automation and a structured pipeline.
 
-In this project you will build such a pipeline.
+## Project Links
+- 📂 GitHub Repository: [https://github.com/Criatura0208/Project-Build-an-ML-Pipeline-Starter](https://github.com/Criatura0208/Project-Build-an-ML-Pipeline-Starter)
+- 📊 W&B Project: [https://wandb.ai/criatura0208-western-governors-university/nyc_airbnb](https://wandb.ai/criatura0208-western-governors-university/nyc_airbnb)
 
 ## Table of contents
 
@@ -26,7 +25,7 @@ This project is compatible with the following operating systems:
 - **Ubuntu 24.04** - both Ubuntu installation and WSL (Windows Subsystem for Linux)
 - **macOS** - compatible with recent macOS versions
 
-Please ensure you are using one of the supported OS versions to avoid compatibility issues.
+Using one of the supported operating systems is recommended to avoid compatibility issues.
 
 ### Python Requirement
 
@@ -46,8 +45,7 @@ and go into the repository:
 ```
 cd Project-Build-an-ML-Pipeline-Starter
 ```
-Commit and push to the repository often while you make progress towards the solution. Remember 
-to add meaningful commit messages.
+Commit and push regularly with meaningful messages during development.
 
 ### Create environment
 Make sure to have conda installed and ready, then create a new environment using the ``environment.yaml``
